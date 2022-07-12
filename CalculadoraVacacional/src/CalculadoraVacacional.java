@@ -4,7 +4,8 @@
  * 2. Suma
  * 3. Resta
  * 4. Multiplicación
- * 5. División
+ * 5. Divisiónsssssss
+ * 6. Ingresar nueva operación
  * El programa debe permitirme ingresar datos cuantas 
  */
 
@@ -13,6 +14,6 @@ public class CalculadoraVacacional {
     Scanner sc = new Scanner(System.in);
     public static void main(String[] args) throws Exception {
         CalculadoraVacacional obj = new CalculadoraVacacional();
-        obj.sc.nextLine():
+        obj.sc.nextLine();
     }
 }
