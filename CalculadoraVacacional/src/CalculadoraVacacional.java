@@ -4,7 +4,7 @@
  * 2. Suma
  * 3. Resta
  * 4. Multiplicación
- * 5. Divisiónsssssss
+ * 5. División
  * 6. Ingresar nueva operación
  * El programa debe permitirme ingresar datos cuantas 
  */
