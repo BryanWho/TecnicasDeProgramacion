@@ -15,7 +15,7 @@ public class CalculadoraVacacional {
     Scanner sc = new Scanner(System.in);
     double numero1 = 0;
     double numero2 = 0;
-    boolean datosingresados = false;
+    boolean datosIngresados = false;
 
     public static void main(String[] args) throws Exception {
         CalculadoraVacacional obj = new CalculadoraVacacional();
@@ -25,7 +25,7 @@ public class CalculadoraVacacional {
             System.out.println("Ingrese una opción");
             opcion = Byte.parseByte(obj.sc.nextLine());
             if(opcion == 2 || opcion == 3  || opcion == 4 || opcion == 5){
-                if(obj.datosingresados == false){
+                if(obj.datosIngresados == false){
                     System.out.println("No puede ingresar esta opción porque no se han ingresado datos");
                 }else{
                     obj.ejecutarOpcion(opcion);
@@ -97,7 +97,7 @@ public class CalculadoraVacacional {
         numero1 = Double.parseDouble(sc.nextLine());
         System.out.println("Ingrese el segundo número");
         numero2 = Double.parseDouble(sc.nextLine());
-        datosingresados = true;
+        datosIngresados = true;
     }
 
     public double sumar(double x, double y){
