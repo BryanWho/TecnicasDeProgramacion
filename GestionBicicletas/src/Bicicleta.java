@@ -18,5 +18,5 @@ public class Bicicleta {
         return "Bicicleta [color=" + color + ", marca=" + marca + ", marcaRuedas=" + marcaRuedas + ", tipoGrupo="
                 + tipoGrupo + ", tipoModalidad=" + tipoModalidad + "]";
     }
-
+    
 }
