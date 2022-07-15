@@ -32,6 +32,7 @@ public class GestionBicicletas {
             String tipoGrupo = datos[4];
             String marcaRuedas = datos[5];
             Bicicleta bicicletaCopia = new Bicicleta(id, marca, tipoModalidad, color, tipoGrupo, marcaRuedas);
+            arreglo[i] = bicicletaCopia;
         }
     }
 
