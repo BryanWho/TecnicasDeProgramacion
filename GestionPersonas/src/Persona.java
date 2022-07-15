@@ -1,4 +1,5 @@
 public class Persona {
+    private int id;
     private byte edad;
     private String nombre;
     private double salario;
@@ -17,7 +18,8 @@ public class Persona {
  * ** puede recibir uno o más parámetros
  * ** el constructor NO retorna nada, ni siquiera void-
 */
-    public Persona(byte edad, String nombre, double salario, boolean feliz, String colorFavorito){
+    public Persona(int id, byte edad, String nombre, double salario, boolean feliz, String colorFavorito){
+        this.id = id;        
         this.edad = edad;
         this.nombre = nombre;
         this.salario = salario;
