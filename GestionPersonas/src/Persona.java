@@ -25,4 +25,12 @@ public class Persona {
         this.colorFavorito = colorFavorito;
     }
 
+    // TODAS las clases en Java heredan de Object
+    // el método toString está en la clase Object
+    @Override
+    public String toString() {
+        return "Persona [colorFavorito=" + colorFavorito + ", edad=" + edad + ", feliz=" + feliz + ", nombre=" + nombre
+                + ", salario=" + salario + "]";
+    }
+
 }
